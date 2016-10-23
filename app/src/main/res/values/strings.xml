@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PIBIC</string>
+    <string name="hello_world">Hello World!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="perfil_string">Perfil</string>
+    <string name="pacientes_string">Lista de Pacientes</string>
+    <string name="sair_string">Sair</string>
+    <string name="lembretes_string">Lembretes</string>
+    <string name="add_string">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

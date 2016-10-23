@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.joo.myapplication.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_per"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/perfil_string"/>
+
+        <item
+            android:id="@+id/menu_lemb"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/lembretes_string"/>
+
+        <item
+            android:id="@+id/menu_pat"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/pacientes_string"/>
+
+        <item
+            android:id="@+id/menu_sa"
+            android:orderInCategory="4"
+            app:showAsAction="never"
+            android:title="@string/sair_string"/>
+    </group>
+</menu>
